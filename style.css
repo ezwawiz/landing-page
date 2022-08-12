@@ -112,6 +112,16 @@ img {
     text-align:right;
 }
 
+.container-4 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    margin: 50px 100px 50px 100px;
+    padding: 16px;
+}
+
 .footer {
     display: flex;
     background-color: #1F2937;
