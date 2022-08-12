@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 0;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 8px;
+    margin: 0;
+}
+
+.header-logo {
+    color: white;
+    margin-left: 255px;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 12px;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    background-color: #1F2937;
+    margin: 0;
+    padding-bottom: 60px;
+}
+
+.website-info {
+    margin-left: 100px;
+    width: 300px;
+}
+
+.text-1 {
+    color: white;
+}
+
+button {
+    background-color: #3882F6;
+    font-size: 12px;
+    padding: 4px 20px;
+    border-radius: 4px;
+    color: white;
+    border: none;
+}
+
+img {
+    width: 400px;
+    height: 200px;
+}
+
+.container-2 {
+    margin-bottom: 150px;
+}
+
+.card-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card-items {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-item {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.container-3 {
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote-text {
+    font-size: 20px;
+    font-style: italic; 
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.author {
+    text-align:right;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    padding: 16px;
+}
